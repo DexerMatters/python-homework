@@ -24,7 +24,7 @@ inputs = [
 ]
 
 outputs = [
-  gr.Text(label="stats:"),
+  gr.Text(label="Stats:"),
   gr.Gallery(label="Photographs")
 ]
 
@@ -48,8 +48,10 @@ def get_response(api_key, sol, page, cam):
     if photo_urls == []:
       stats = "There doesn't seem to be any photos in your query."
 
+    print(stats)
     return stats, photo_urls
 
+  print(stats)
   return stats, []
 
 
