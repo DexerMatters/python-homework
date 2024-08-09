@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 
-API_KEY = "sk-nAs5ILkcWdxhJFenOdZBJrlPuxFAazEKKL6Nv50u1g1GZ2BJ"
+API_KEY = ""
 MODEL = "moonshot-v1-8k"
 BASE_URL = "https://api.moonshot.cn/v1"
 
